@@ -11,51 +11,76 @@
   </head>
   <body>
     
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #2C0B0E;">
-      <div class="container">
-        <a class="navbar-brand" href="#">Alzběta Myšková</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Úvod</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Programování</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Focení</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kreslení</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kontakt</a>
-            </li>
-          </ul>
+    <header>
+      <nav class="navbar fixed-top navbar-expand-lg navbar-light" style="background-color: #F8D7DA;">
+        <div class="container">
+          <a class="navbar-brand" href="#">Alzběta Myšková</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Úvod</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="programming">Programování</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="photographing">Focení</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="drawing">Kreslení</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact">Kontakt</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
-
-    <div class="containter mt-5">
-      <span class="badge rounded-pill bg-secondary">
-        <h2>Kdo jsem?</h2>
-      </span>
-      <div class="row text-center">
-        <p>
-          ABCD
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam quas odio nesciunt, earum dolore eum iusto quos porro asperiores pariatur numquam id fuga sed vero ad! Veniam ad labore debitis.
-        Sed quam vero consectetur velit cum iusto, earum explicabo doloremque nobis, exercitationem saepe? Quis culpa odit, porro, suscipit rem distinctio tempora perspiciatis architecto laborum iste, minus error saepe ut labore!
-        Atque ipsam natus doloribus optio, sed nobis quasi, architecto voluptatibus sint quo quisquam reprehenderit aut quas ad possimus nihil doloremque voluptates nisi rerum odio suscipit! Reprehenderit excepturi accusamus magnam rem!</p>
+      </nav>
+    </header>
+    
+    <!-- sekce o mně -->
+    <div class="containter mt-5 pt-4 d-flex justify-content-center">
+      <div class="card mb-3" style="max-width:1320px; background-color:#DEE2E6; border: none;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img src="img/ptf_right.jpg" class="img-fluid rounded-start" alt="Picture of author site">
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">Kdo jsem?</h5>
+              <p class="card-text">Pozoruj, naslouchej, uč se!</p>
+              <p class="card-text">Musím neustále něco tvořit. Mám fenku Aiminku, na kterou nedám dopustit. S přítelem rekonstruujeme velký dům. Jsem závislá na sladkým. Mám operovanou čelist a nalomenou neoperovanou kyčel. Přesto sportuji a miluji to (kolo, kůň, pes).</p>
+              <p class="card-text">Snažím se se všemi vycházet, ale "odsuď podsuď". Tak třeba se vám zalíbím. Bety</p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
 
-    <footer class="footer fixed-bottom py-3" style="background-color: #2C0B0E;">
-      <div class="container">
-        <span class="text-muted">@ Alžběta Myšková, 2021</span>
+    <!-- sekce programování -->
+
+    <!-- sekce focení -->
+
+    <!-- sekce kreslení -->
+
+    <!-- sekce kontakt -->
+
+    <footer class="footer fixed-bottom py-3" style="background-color: #F8D7DA;">
+      <div class="container d-flex justify-content-between">
+
+        <div>
+          @ Alžběta Myšková, 2021
+        </div>
+
+        <div>
+          <a href="https://github.com/alzbetamyskova"><img class="img-fluid" src="./img/github-sign.svg" alt="Github link" style="width:20px;height:20px;" title="Github"></a>
+          <a href="https://www.linkedin.com/in/al%C5%BEb%C4%9Bta-my%C5%A1kov%C3%A1-66b828165/"><img class="img-fluid" src="./img/linkedin-logo.svg" alt="Linkedin link" style="width:20px;height:20px;" title="Linkedin"></a>
+          <a href="https://www.instagram.com/betym.life/"><img class="img-fluid" src="./img/instagram.svg" alt="Instagram link" style="width:20px;height:20px;" title="Instagram"></a>
+        </div>
+
       </div>
     </footer>
     
