@@ -1,3 +1,7 @@
 body {
   background-image: url(./img/dot-grid.png);
 }
+
+.nav-item:hover {  
+  background-color: #EA868F;
+}

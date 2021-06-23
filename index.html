@@ -24,16 +24,16 @@
                 <a class="nav-link active" aria-current="page" href="#">Úvod</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="programming">Programování</a>
+                <a class="nav-link" href="#programming">Programování</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="photographing">Focení</a>
+                <a class="nav-link" href="#photographing">Fotografie</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="drawing">Kreslení</a>
+                <a class="nav-link" href="#drawing">Kreslení</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="contact">Kontakt</a>
+                <a class="nav-link" href="#contact">Kontakt</a>
               </li>
             </ul>
           </div>
@@ -41,12 +41,12 @@
       </nav>
     </header>
     
-    <!-- sekce o mně -->
-    <div class="containter mt-5 pt-4 d-flex justify-content-center">
+    <!-- sekce úvod -->
+    <div class="containter my-5 pt-4 d-flex justify-content-center">
       <div class="card mb-3" style="max-width:1320px; background-color:#DEE2E6; border: none;">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="img/ptf_right.jpg" class="img-fluid rounded-start" alt="Picture of author site">
+            <img src="img/myimg.jpg" class="img-fluid rounded-start" alt="Picture of author site">
           </div>
           <div class="col-md-8">
             <div class="card-body">
@@ -54,6 +54,7 @@
               <p class="card-text">Pozoruj, naslouchej, uč se!</p>
               <p class="card-text">Musím neustále něco tvořit. Mám fenku Aiminku, na kterou nedám dopustit. S přítelem rekonstruujeme velký dům. Jsem závislá na sladkým. Mám operovanou čelist a nalomenou neoperovanou kyčel. Přesto sportuji a miluji to (kolo, kůň, pes).</p>
               <p class="card-text">Snažím se se všemi vycházet, ale "odsuď podsuď". Tak třeba se vám zalíbím. Bety</p>
+              <a href="https://www.linkedin.com/in/al%C5%BEb%C4%9Bta-my%C5%A1kov%C3%A1-66b828165/" target="_blank" class="btn btn-danger mb-3" style="background-color: #E35D6A; border: none;">Linkedin</a>
             </div>
           </div>
         </div>
@@ -61,14 +62,172 @@
     </div>
 
     <!-- sekce programování -->
+    <div class="containter d-flex justify-content-center my-5" id="programming">
+
+      <!-- Card -->
+      <div class="card" style="max-width:1320px; border:none; background-color:#DEE2E6;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Programování</h5>
+          <p class="card-text">Taguji HTML, kóduji CSS, programuji JS a React. Používám frameworky a knihovny. Neustále se sebevzdělávám a tvořím nové a nové projekty.</p>
+          <a href="https://github.com/alzbetamyskova" target="_blank" class="btn btn-danger mb-3" style="background-color: #E35D6A; border: none;">GitHub</a>
+
+          <!-- Gallery in card -->
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="max-width:1320px;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/Nadobrounoc.JPG" class="d-block w-100" alt="App Na Dobrou Noc">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Na Dobrou Noc</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/Snake.JPG" class="d-block w-100" alt="Game Snake">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hra had</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/piskvorky.JPG" class="d-block w-100" alt="Game five-in-a-row">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Piškvorky</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
 
     <!-- sekce focení -->
+    <div class="containter d-flex justify-content-center my-5" id="photographing">
 
+      <!-- Card -->
+      <div class="card" style="max-width:1320px; border:none; background-color:#DEE2E6;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Fotografie</h5>
+          <p class="card-text">Věnuji se především psům a zvířatům v zoo. Fotím momentálně na Sony A6100. Upravuji v Adobe Lightroom a Adobe Photoshop.</p>
+          <a href="https://www.zonerama.com/BetyM" target="_blank" class="btn btn-danger mb-3" style="background-color: #E35D6A; border: none;">Zonerama</a>
+
+          <!-- Gallery in card -->
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="max-width:1320px;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/Nadobrounoc.JPG" class="d-block w-100" alt="App Na Dobrou Noc">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Na Dobrou Noc</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/Snake.JPG" class="d-block w-100" alt="Game Snake">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hra had</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/piskvorky.JPG" class="d-block w-100" alt="Game five-in-a-row">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Piškvorky</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>
+    
     <!-- sekce kreslení -->
+    <div class="containter d-flex justify-content-center my-5" id="photographing">
+
+      <!-- Card -->
+      <div class="card" style="max-width:1320px; border:none; background-color:#DEE2E6;">
+        <div class="card-body text-center">
+          <h5 class="card-title">Kreslení</h5>
+          <p class="card-text mb-3">Vyhrává především digikresba emotikon a drobných kreseb. Do budoucna bych se chtěla věnovat landscape kresbě.</p>
+
+          <!-- Gallery in card -->
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel" style="max-width:1320px;">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="./img/Nadobrounoc.JPG" class="d-block w-100" alt="App Na Dobrou Noc">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Na Dobrou Noc</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="./img/Snake.JPG" class="d-block w-100" alt="Game Snake">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Hra had</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./img/piskvorky.JPG" class="d-block w-100" alt="Game five-in-a-row">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Piškvorky</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+
+        </div>
+      </div>
+
+    </div>    
 
     <!-- sekce kontakt -->
 
-    <footer class="footer fixed-bottom py-3" style="background-color: #F8D7DA;">
+    <footer class="footer mt-auto py-3" style="background-color: #F8D7DA;">
       <div class="container d-flex justify-content-between">
 
         <div>
